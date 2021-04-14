@@ -27,7 +27,6 @@ public class SortUtil<T> {
             //  使小于分割元素或大于分割元素的数组元素各处于数组的一侧
             less(arr, i, j);
 //            write(arr, v, lo, hi, i, j, false);
-
         }
         less(arr, lo, j);   //  遍历一边数组之后将分割元素放到合适的位置。使分割元素的左侧都小于分割元素，右侧都大于分割元素
 //        write(arr, v, lo, hi, lo, j, true);
